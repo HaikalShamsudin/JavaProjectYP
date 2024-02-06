@@ -15,3 +15,4 @@ public class Assignment1 {
             System.out.println((i+1)+"."args[i]);
         }
 }
+}
