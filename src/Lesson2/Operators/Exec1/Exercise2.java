@@ -3,14 +3,17 @@ package Lesson2.Operators.Exec1;
 public class Exercise2 {
 
     // first, declare the variable
-    double xoff, yoff, zoff;
+    
     int x1 = 2, x2 = 0;
+    double xoff = Math.pow(x1 - x2, 2);
     int y1 = 1, y2 = 0;
+    double yoff = Math.pow(y1 - y2, 2);
     int z1 = 3, z2 = 6;
+    double zoff = Math.pow(z1 - z2, 2);
 
-    // then, initiate
+
     public static void main(String[] args) {
-        Exercise2 exercise2 = new Exercise2();
+        Exercise2 exercise2 = new Exercise2(); // initiate object
         double d = exercise2.calculate();
 
         System.out.printf("Distance: %.2f", d);
@@ -18,12 +21,7 @@ public class Exercise2 {
 
     // make the method
     public double calculate(){
-        this.xoff = Math.pow(this.x1 - this.x2, 2);
-        this.yoff = Math.pow(this.y1 - this.y2, 2);
-        this.zoff = Math.pow(this.z1 - this.z2, 2);
-
-        // return the value to execute
-        return Math.sqrt(this.xoff + this.yoff + this.zoff);
+        return Math.sqrt(xoff + yoff + zoff);
     }
 }
 
