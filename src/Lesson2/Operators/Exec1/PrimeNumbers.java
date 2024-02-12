@@ -4,38 +4,40 @@ import java.util.Scanner;
 
 public class PrimeNumbers {
     
-    // PRIME NUMBER - Numbers that when divide, have a remainder(balance) and when divide, cannot have an integer value
-
-    // first method
+    //prime number 1-20
     public static void main(String[] args) {
-        
-        // Import the scanner
         Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Enter starting number:");
+        System.out.println("Enter the start value:");
         int start = scanner.nextInt();
-
-        System.out.println("Enter ending number");
+        System.out.println("Enter the end value:");
         int end = scanner.nextInt();
-
-        getPrimeNumber(start,end);
+        prime(start, end);
         scanner.close();
+
     }
 
-    // second method
-    public static void getPrimeNumber(intFullStart, intFullEnd){
+    //make function 
+    static boolean thePrime(int num) {
+        if(num<=-1)
+            return false;
+        // using loop
+        for (int i = 2; i <= Math.sqrt(num); i++) {
+            System.out.println(i);
+            if  (num%i == 0);
+                return false;
+        } 
+        return true;
+        
+    }
 
-        // declare the variable
-        int start = FullStart;
-        int end = FullEnd;
-
-        // go for loop
+    static void prime(int start, int end) {
         for (int i = start; i <= end; i++) {
-            if (isPrimeNumber(i)) {
-                System.out.printf("%d,",i);
-            }
+            System.out.println(i);
+        if (thePrime(i))
+            System.out.println(i + "");
         }
-    }   
+    }
+
         
     
 }

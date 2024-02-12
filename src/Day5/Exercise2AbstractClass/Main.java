@@ -1,0 +1,13 @@
+package Day5.Exercise2AbstractClass;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        //instantiate
+        Rectangle rectangle = new Rectangle(5,4);
+        Circle cirlce = new Circle(3);
+
+        System.out.println("Area of rectangle:" + rectangle.calculateArea());
+        System.out.println("Area of circle:" + circle.calculateArea()) ; 
+    }
+}
