@@ -15,5 +15,4 @@ abstract class ReadFileHandler {
         return this.filename;
     }
     
-
 }

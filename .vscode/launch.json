@@ -8,6 +8,41 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Day8two.GenericClass.Q3.Main",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Day88.GenericClass.Q3.Main",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Day8.Interface.Q1.Main",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Day8.Interface.Example.Main",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Day8.Interface.Q3.Main",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Day7.Example4.Main",
             "projectName": "JavaProjectYP_ba09ddda"
         },

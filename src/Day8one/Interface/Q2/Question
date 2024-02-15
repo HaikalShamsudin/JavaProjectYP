@@ -1,0 +1,6 @@
+Assignment 2: Bank Account Interface
+Create an interface called `BankAccount` with the following methods:
+- `deposit(double amount)`: Adds the given amount to the account balance.
+- `withdraw(double amount)`: Subtracts the given amount from the account balance.
+- `getBalance()`: Returns the current balance of the account.
+Create classes `SavingsAccount` and `CheckingAccount` that implement the `BankAccount` interface. Implement appropriate functionality for each class, such as interest calculation for savings accounts and overdraft protection for checking accounts.
