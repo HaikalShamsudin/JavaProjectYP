@@ -29,9 +29,9 @@ public class Main {
 
         //APPENDING FILES
         Scanner scanner = new Scanner(System.in);
-
-        
+        System.out.println("Enter the files to append:");
        AppendingFiles appendingFiles = new AppendingFiles(filename);
-       appendingFiles.appendToFiles(filename, filename);
+       appendingFiles.appendToFiles(filename, scanner.nextLine());
+       scanner.close();
     }
 }

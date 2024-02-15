@@ -1,0 +1,6 @@
+Assignment 3: Generic Queue
+Implement a generic queue class `GenericQueue<T>` that supports the following operations:
+- `enqueue(T item)`: Adds an item to the queue.
+- `dequeue()`: Removes and returns the item at the front of the queue.
+- `isEmpty()`: Returns true if the queue is empty, false otherwise.
+Test your `GenericQueue` class with different data types such as Integer, String, and Boolean.
