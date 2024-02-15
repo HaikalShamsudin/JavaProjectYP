@@ -1,6 +1,6 @@
 package Day5.FinalClass;
 
-public class Circle {                                   
+private final class Circle {                                   
     
     //DECLARE VARIABLE
     private final double radius;

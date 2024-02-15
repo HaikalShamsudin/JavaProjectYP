@@ -12,7 +12,7 @@ public class Logger {
 
     }
 
-    public static getInstance() {
+    public static Logger getInstance() {
 
         if  (instance == null) {
             instance = new Logger();
@@ -22,17 +22,13 @@ public class Logger {
 
     //METHOD 
     public void log(String message) {
+        //create object
         LocalDateTime currentTime = LocalDateTime.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-ddHH:mm:ss");
         String formattedTime = currentTime.format(formatter);
         System.out.println("[" + formattedTime + "]" + message);
     }
 
-    public static void main(String[] args) {
-        Logger logger = Logger.getInstance();
-        logger.log("Hello World!");
-
-    }
 }
 
 // A Singleton class in Java is a class that allows only one instance of itself to be created
