@@ -1,7 +1,8 @@
 package Day5.POJO;
 
 public class Person {
-    
+
+    //POJO (Plain Old Java Object) - for JAVA SE - FOR DATABASE
     //DECLARE variable
     String name;
     int age;
@@ -14,7 +15,7 @@ public class Person {
         this.email = email;
     }
 
-    //METHOD getter and setter 
+    //METHOD getter (read value) 
     public String setName() {
         return name;
     }
@@ -26,6 +27,8 @@ public class Person {
     public String setEmail() {
         return email;
     }
+
+    //METHOD setter (update value)
     public String getName() {
         return name;
     }
@@ -48,3 +51,9 @@ public class Person {
         System.out.println("Email:" + person.getEmail());
     }
 }
+
+// A POJO (Plain Old Java Object) class in Java is a simple Java class that only contains private fields,
+// along with public getter and setter methods to access and modify those fields. POJO classes are used
+// to represent data objects in the application. They are appropriate when you need to model data with
+// attributes but do not require any specific functionality or behavior beyond accessing and modifying
+// those attributes.

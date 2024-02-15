@@ -6,6 +6,104 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Day7.Example4.Main",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "WriteFile",
+            "request": "launch",
+            "mainClass": "Day7.Example4.WriteFile",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "ReadFile",
+            "request": "launch",
+            "mainClass": "Day7.Example4.ReadFile",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "SocketServerExample",
+            "request": "launch",
+            "mainClass": "Day7.Example3.SocketServerExample",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "SocketClientExample",
+            "request": "launch",
+            "mainClass": "Day7.Example3.SocketClientExample",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Day7.Example2.Main",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "SocketExample",
+            "request": "launch",
+            "mainClass": "Day7.Example3.SocketExample",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "DeserializationExample",
+            "request": "launch",
+            "mainClass": "Day7.DeserializationExample",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "SerializationExample",
+            "request": "launch",
+            "mainClass": "Day7.SerializationExample",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Q30",
+            "request": "launch",
+            "mainClass": "Day5.Quiz2.Q30",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Q32",
+            "request": "launch",
+            "mainClass": "Day5.Quiz2.Q32",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Day5.Singleton.Main",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Rectangle",
+            "request": "launch",
+            "mainClass": "SelfStudy.Level1.Q1.Rectangle",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Day5.Exercise2AbstractClass.Main",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
             "name": "Dog",
             "request": "launch",
             "mainClass": "Day5.Assignment.Dog",

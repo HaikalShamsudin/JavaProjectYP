@@ -1,4 +1,4 @@
-package Day5.Assignment;
+package Day5.Assignment.Encapsulation;
 
 public class Student {
     
@@ -18,7 +18,7 @@ public class Student {
     public int getRollNumber() {
         return rollNumber;
     }
-
+        
         
     //setter method
     public void setName(String name) {

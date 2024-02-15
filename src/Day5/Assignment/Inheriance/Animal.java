@@ -1,4 +1,4 @@
-package Day5.Assignment;
+package Day5.Assignment.Inheriance;
 
 public class Animal {
     
