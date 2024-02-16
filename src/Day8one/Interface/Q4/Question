@@ -1,0 +1,4 @@
+Assignment 4: Sorting Algorithm Interface
+Create an interface called `Sortable` with the following method:
+- `void sort(int[] array)`: Sorts the given array of integers in ascending order.
+Implement the `Sortable` interface with classes representing different sorting algorithms such as bubble sort, selection sort, insertion sort, etc. Test each sorting algorithm by sorting various arrays of integers and measuring their performance.

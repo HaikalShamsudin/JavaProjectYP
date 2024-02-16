@@ -1,0 +1,5 @@
+ Assignment 1: Shape Hierarchy
+Define an abstract class `Shape` with the following properties and methods:
+- Properties: `color` (String), `filled` (boolean)
+- Methods: `getArea()` (abstract), `getPerimeter()` (abstract), `toString()` (returns a String representation of the shape)
+Create concrete subclasses `Circle`, `Rectangle`, and `Square` that extend the `Shape` class and implement the necessary methods.

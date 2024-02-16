@@ -1,0 +1,7 @@
+Assignment 5: Animal Hierarchy
+Define an abstract class `Animal` with the following properties and methods:
+- Properties: `name` (String), `age` (int)
+- Methods: `eat()`, `sleep()`, `makeSound()` (abstract)
+Create concrete subclasses `Dog`, `Cat`, and `Bird` that extend the `Animal` class and implement the `makeSound()` method to produce appropriate sounds for each animal.
+These assignments should provide you with a good opportunity to practice implementing and working with Java interfaces and abstract classes.
+Absolutely! Here are ten more assignments to further deepen your understanding of Java interfaces and abstract classes:

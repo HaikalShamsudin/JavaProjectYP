@@ -1,0 +1,5 @@
+Assignment 6: Employee Management System
+Create an abstract class `Employee` with the following properties and methods:
+- Properties: `name` (String), `id` (int), `salary` (double)
+- Methods: `calculateSalary()` (abstract), `displayDetails()`
+Create concrete subclasses `Manager`, `Developer`, and `Intern` that extend the `Employee` class. Implement the `calculateSalary()` method to calculate the salary based on the employee's role, and `displayDetails()` to print out the details of each employee.
