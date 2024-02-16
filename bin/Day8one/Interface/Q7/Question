@@ -1,0 +1,5 @@
+Define an interface called `SortableShape` with a method:
+- `double area()`: Computes the area of the shape.
+Create a class `ShapeSorter` with a method:
+- `static void sort(SortableShape[] shapes)`: Sorts an array of `SortableShape` objects in ascending order of their areas.
+Implement the interface `SortableShape` in classes representing various shapes like `Rectangle`, `Circle`, `Triangle`, etc. Implement the sorting method to sort shapes based on their areas.

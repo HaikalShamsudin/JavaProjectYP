@@ -1,0 +1,5 @@
+ Assignment 8: Payment Gateway Integration
+Create an interface called `PaymentGateway` with methods:
+- `void processPayment(double amount)`: Processes a payment.
+- `boolean isPaymentSuccessful()`: Checks if the payment was successful.
+Implement the interface in classes representing different payment gateways like `PayPal`, `Stripe`, etc. Test the payment processing functionality by making payments through different gateways.

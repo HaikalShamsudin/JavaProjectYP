@@ -1,0 +1,4 @@
+ Assignment 10: File Compression Utility
+Create an abstract class `CompressionAlgorithm` with a method:
+- `void compress(String inputFile, String outputFile)`: Compresses the input file and writes the compressed data to the output file.
+Implement concrete subclasses `ZipAlgorithm`, `GZipAlgorithm`, and `LZMAAlgorithm` that extend the `CompressionAlgorithm` class. Implement the compression algorithm in each subclass and test their functionalities.
