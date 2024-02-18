@@ -1,0 +1,5 @@
+Assignment 13: Remote Sensing System
+Create an interface called `Sensor` with methods:
+- `void measure()`: Takes a measurement.
+- `void calibrate()`: Calibrates the sensor.
+Create classes `TemperatureSensor` and `PressureSensor` that implement the `Sensor` interface. Implement methods appropriately for each class.

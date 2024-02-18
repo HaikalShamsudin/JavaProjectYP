@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ChatApplication",
+            "request": "launch",
+            "mainClass": "Day9.Q7.ChatApplication",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "TestShape",
+            "request": "launch",
+            "mainClass": "SelfStudy.AbstractaAndInterface.TestShape",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "SelfStudy.GenericClass.Test",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "SelfStudy.EX4.Main",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "TestRectangle",
+            "request": "launch",
+            "mainClass": "SelfStudy.EX3.TestRectangle",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "SelfStudy.EX2.Main",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "SumCalculator",
+            "request": "launch",
+            "mainClass": "SelfStudy.EX1.SumCalculator",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "StringConatenate",
+            "request": "launch",
+            "mainClass": "SelfStudy.EX1.StringConatenate",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Day8one.Interface.Q13.Main",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Day8one.Interface.Q11.Main",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "MethodWithReturn",
+            "request": "launch",
+            "mainClass": "SelfStudy.MethodWithReturn",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "MethodWithParameter",
+            "request": "launch",
+            "mainClass": "SelfStudy.MethodWithParameter",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Method",
+            "request": "launch",
+            "mainClass": "SelfStudy.Method",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Day8one.Interface.Q9.Main",

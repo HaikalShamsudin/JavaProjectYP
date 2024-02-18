@@ -1,0 +1,6 @@
+Assignment 1: Generic Stack
+Implement a generic stack class `GenericStack<T>` that supports the following operations:
+- `push(T item)`: Pushes an item onto the stack.
+- `pop()`: Pops and returns the top item from the stack.
+- `isEmpty()`: Returns true if the stack is empty, false otherwise.
+Test your `GenericStack` class with various data types such as Integer, String, and Double.
