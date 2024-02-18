@@ -1,0 +1,3 @@
+ Assignment 12: Banking System with Transactions
+Extend the `BankAccount` interface from Assignment 2 to include methods for transactions such as `transfer()` (to transfer funds between accounts) and `getTransactionHistory()` (to retrieve transaction history).
+Implement these methods in classes `SavingsAccount` and `CheckingAccount`. Ensure that transactions are properly recorded and reflected in the account balances.

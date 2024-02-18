@@ -1,0 +1,8 @@
+ Assignment 15: Music Streaming Service
+Define an interface called `MusicPlayer` with methods:
+- `void play()`: Plays the current track.
+- `void pause()`: Pauses the current track.
+- `void next()`: Plays the next track.
+- `void previous()`: Plays the previous track.
+Create classes `MP3Player` and `StreamingServicePlayer` that implement the `MusicPlayer` interface. Implement methods appropriately for each class.
+

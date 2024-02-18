@@ -1,0 +1,6 @@
+Create an interface called `RemoteControl` with methods:
+- `void powerOn()`: Turns on the remote control.
+- `void powerOff()`: Turns off the remote control.
+- `void volumeUp()`: Increases the volume.
+- `void volumeDown()`: Decreases the volume.
+Create classes `TVRemote` and `StereoRemote` that implement the `RemoteControl` interface. Implement methods appropriately for each class.
