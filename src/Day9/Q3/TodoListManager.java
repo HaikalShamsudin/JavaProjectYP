@@ -11,11 +11,11 @@ import javax.swing.*;
 
 public class TodoListManager extends JFrame{
 
-    private JTextField taskTextField; //This variable is likely used to get user input for adding tasks to the todo list
+    protected JTextField taskTextField; //This variable is likely used to get user input for adding tasks to the todo list
     @SuppressWarnings("rawtypes")
-    private JList todoList; // it's a list that will contain strings representing tasks.
+    protected JList todoList; // it's a list that will contain strings representing tasks.
     @SuppressWarnings("rawtypes")
-    private DefaultListModel todoListModel; //model for a list component and is used to manage the data (tasks in this case) displayed in the JList.
+    protected DefaultListModel todoListModel; //model for a list component and is used to manage the data (tasks in this case) displayed in the JList.
     
 
     //constructor 

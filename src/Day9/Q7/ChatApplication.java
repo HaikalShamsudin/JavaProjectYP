@@ -80,4 +80,4 @@ public class ChatApplication extends JFrame {
     }
 
 
-}
+} 
