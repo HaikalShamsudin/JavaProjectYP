@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "SelfStudy.ExpenseTracker.Main",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "ExpenseTrackerApp",
+            "request": "launch",
+            "mainClass": "Day9.java.Example.ExpenseTrackerApp",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Day10.Example.Main",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Day10.Q7.Main",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Day10.Q3.Main",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
             "name": "ChatApplication",
             "request": "launch",
             "mainClass": "Day9.Q7.ChatApplication",
