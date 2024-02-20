@@ -20,6 +20,10 @@ public class AddButtonListener extends Listener implements ActionListener {
         String todoDue = (super.getDayComboBox().getSelectedItem()).toString();
         String todoDesc = super.getInputFieldDesc().getText().trim();
 
+        //to call the function into the database
+        ToDoService toDoService = new ToDoService();
+        toDoService.insert(todoTitle, todoDue, todoDesc);
+
         if (!todoTitle.isEmpty() && !todoDesc.isEmpty()) {
             ToDo todoObj = new ToDo(todoTitle, todoDue, new ToDo.TaskDetails(todoDesc));
             super.getListModel().addElement(todoObj);

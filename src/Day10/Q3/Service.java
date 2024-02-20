@@ -1,21 +1,19 @@
-package Day10.Example;
+package Day10.Q3;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class ToDoService {
+public class Service {
 
-    public ToDoService(){}
+    public Service(){}
     
-    public void insert(String Title, String due, String description) {
-        String INSERT_SQL = "INSERT INTO todolist (title, due, description) VALUES (?, ?, ?);";
-        try (Connection connection = MySQLConnector.getConnection();
+    public void insert(String Title) {
+        String INSERT_SQL = "INSERT INTO todolist (title) VALUES (?);";
+        try (Connection connection = MYSQLConnector.getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(INSERT_SQL)) {
             
             preparedStatement.setString(1, Title);
-            preparedStatement.setString(2, due);
-            preparedStatement.setString(3, description);
 
             System.out.println(preparedStatement);
             // Step 3: Execute the query or update query
