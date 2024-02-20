@@ -75,9 +75,7 @@ public class ToDoListManagerApp extends JFrame {
         printButton.addActionListener(new PrintButtonListener(inputField, inputFieldDesc, dayComboBox, listModel));
         buttonPanel.add(printButton);
 
-        //calling the function to the database
-        ToDoService todoService = new ToDoService();
-        todoService.insert
+
 
         // add all to main panel
         mainPanel.add(textPanel);

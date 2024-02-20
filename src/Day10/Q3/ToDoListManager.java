@@ -34,9 +34,10 @@ abstract class ToDoListManager extends JFrame {
 
 
         //add button
-        
         JButton addButton = new JButton("Add task");
         addButton.addActionListener(e -> addTask());
+        Service service = new Service();
+        service.insert(getTitle());
         panel.add(todoLabel);
         panel.add(taskTextField);
         panel.add(addButton);

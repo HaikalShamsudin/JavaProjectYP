@@ -1,10 +1,10 @@
-package Day10.Q3;
+package Day10.Q15;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class MYSQLConnector {
+public class MySQLConnector {
     
     // private static final String JDBC_URL = "jdbc:mysql://127.0.0.1:3306/todo_management_app_db?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false";
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/mydatabase";
@@ -24,5 +24,3 @@ public class MYSQLConnector {
         }
     }
 }
-
-

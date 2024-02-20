@@ -1,5 +1,6 @@
-package Day9.Q15;
+package Day10.Q15;
 
+import java.awt.Color;
 import java.awt.Dimension;
 
 import javax.swing.*;
@@ -16,7 +17,7 @@ public class RecipeBookApp extends JFrame { //this class only for GUI panel
 
         //basic setup
         setTitle("Recipe List");
-        setSize(400, 500);
+        setSize(500, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
@@ -29,13 +30,13 @@ public class RecipeBookApp extends JFrame { //this class only for GUI panel
         
         //add label and title input
         JLabel inputLabel = new JLabel("Enter Recipe");
-        inputField = new JTextField(20);
+        inputField = new JTextField(30);
         textPanel.add(inputLabel);
         textPanel.add(inputField);
 
         //add label and details recipe
         JLabel detaiLabel = new JLabel("Enter recipe details");
-        inputDetails = new JTextField(20);
+        inputDetails = new JTextField(30);
         detailPanel.add(detaiLabel);
         detailPanel.add(inputDetails);
         
@@ -43,12 +44,18 @@ public class RecipeBookApp extends JFrame { //this class only for GUI panel
         listModel = new DefaultListModel<>();
         recipelist = new JList<>(listModel);
         JScrollPane scrollPane = new JScrollPane(recipelist);
-        scrollPane.setPreferredSize(new Dimension(250,200));
+        scrollPane.setPreferredSize(new Dimension(200,200));
         displayPanel.add(scrollPane);
 
         //ADD ADD BUTTON
         JButton addButton = new JButton("Add");
+        addButton.setBackground(new Color(0, 27, 32));
         addButton.addActionListener(new AddButtonListener(inputField, inputDetails, listModel));
+
+        //ADD EDIT Button
+        JButton editButton = new JButton("Edit"); //create button
+        editButton.addActionListener(null);
+        buttonPanel.add(editButton);
 
         // ADD DELETE BUTTON
         JButton deleteButton = new JButton("Delete");

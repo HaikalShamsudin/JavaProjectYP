@@ -1,11 +1,11 @@
-package Day9.Q15;
+package Day10.Q15;
 
-public class Recipe {
+public class Recipe { //CLASS MODEL
     
     private String name;
     private String details;
 
-    //contructor
+    //constructor for class Recipe
     public Recipe (String name, String details) {
         this.name = name;
         this.details = details;
