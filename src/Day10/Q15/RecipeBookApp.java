@@ -59,7 +59,7 @@ public class RecipeBookApp extends JFrame { //this class only for GUI panel
 
         // ADD DELETE BUTTON
         JButton deleteButton = new JButton("Delete");
-        deleteButton.addActionListener(new DeleteButtonListener(inputField, inputDetails, listModel, recipelist));
+        deleteButton.addActionListener(new DeleteButtonListener(inputField, inputDetails, listModel, recipelist, recipelist.getSelectedIndex()));
         buttonPanel.add(deleteButton);
 
         //add all to the main panel

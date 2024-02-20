@@ -16,7 +16,7 @@ public class DeleteButtonListener extends AbstractListener implements ActionList
 
     // constructor for DeleteButtonListener
     public DeleteButtonListener(JTextField inputField, JTextField inputDetails, DefaultListModel<Recipe> listModel,
-            JList<Recipe> recipelist) {
+            JList<Recipe> recipelist, int selectIndex) {
         super(inputField, inputDetails, listModel);
         this.recipelist = recipelist;
     }
