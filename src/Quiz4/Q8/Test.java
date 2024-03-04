@@ -1,17 +1,36 @@
 package Quiz4.Q8;
 
-public class Test { //QUESTION 20 - ARRAY!!!
+public class Test {
     public static void main(String[] args) {
-        int elements = 0;
-        Object [] arr = {"A", "E", "I", new Object(), "O", "U"}; //LINE 1
-        for (Object obj : arr) { //LINE 2 this line, shows the obj as type of object and iterate the arr array/index
-            if (obj instanceof String) { // this line show it will skip the iteration if the current element is not a String
-                continue;
-            } else { System.out.println();
-                break; //break ni, lepas jumpa break PASTI akan keluar dari dalam loop.
-            }
-            elements ++ ; //LINE 3 this line takkan excecute sebab samada loop continue atau break, dia takkan reach line ini.
-        }
-        System.out.println(elements);
+        int score = 30;
+        char grade = 'F';
+
+        if (50 <= score && score < 60)
+        grade = 'D';
+        if (60 <= score && score  < 70)
+        grade = 'C';
+        if (70 <= score && score  < 80)
+        grade = 'B';
+        if (score >= 80)
+        grade = 'A';
+
+        System.out.println(grade);
+
     }
 }
+
+// ANSWER = COMPILATION ERROR
+
+// Explanation - Relational operators (<, >, <= and >=) are at same level and left to right associative,
+//               hence given expression can be grouped as: (50 <= score) < 60
+
+// otherwise, we can put logical operator like this
+
+//                       if (50 <= score && score < 60)
+//                          grade = 'D';
+//                       if (60 <= score && score  < 70)
+//                          grade = 'C';
+//                       if (70 <= score && score  < 80)
+//                          grade = 'B';
+//                       if (score >= 80)
+//                          rade = 'A';
