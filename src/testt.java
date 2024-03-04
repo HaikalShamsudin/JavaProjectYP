@@ -1,11 +1,20 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 
-public class Test {
+import java.util.ArrayList;
+import java.util.List;
+
+public class testt {
+ 
     public static void main(String[] args) {
-        Animal horse = new Horse ();
-        ((Horse)horse).ride("Emma");
+        
+    /*insert */
+
+    switch (var) {
+        case 7:
+        System.out.println("Lucky no. 7");
+        break;
+
+        default: 
+        System.out.println("DEFAULT");
     }
 }
-
+}

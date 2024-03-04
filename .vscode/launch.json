@@ -6,6 +6,104 @@
     "configurations": [
         {
             "type": "java",
+            "name": "testt",
+            "request": "launch",
+            "mainClass": "testt",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Quiz4.Q23.Test",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Quiz4.Q19.Test",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Quiz4.Q18.Test",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Quiz4.Q16.Test",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Quiz4.Q14.Test",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Quiz4.Q6.Test",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "TestVehicle",
+            "request": "launch",
+            "mainClass": "Day11.Example.TestVehicle",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Truck",
+            "request": "launch",
+            "mainClass": "Day11.Example.Truck",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Quiz4.Q65.Test",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Quiz4.Q13.Test",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Quiz4.Q12.Test",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Quiz4.Q11.Test",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Quiz4.Test",
+            "projectName": "JavaProjectYP_ba09ddda"
+        },
+        {
+            "type": "java",
             "name": "Test",
             "request": "launch",
             "mainClass": "Quiz4.Q9.Test",

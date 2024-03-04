@@ -1,25 +1,23 @@
 package Quiz4.Q6;
 
-import java.sql.SQLException;
-
-public class Test { //QUESTION 28 - SQL EXCEPTION
-    private static void getData() throws SQLException {
-        try {
-            throw new SQLException();
-        } catch (Exception e) {
-            e = new SQLException();  //THIS LINE - If you don't initialize variable e inside catch block using `e = new SQLException();`
-            throw e;                               // and simply throw e, then code would compile successfully 
-        }                                           // as compiler is certain that 'e' would refer to an instance of SQLException only.
-    }
-
+public class Test {
     public static void main(String[] args) {
-        try {
-            getData();
-        } catch (SQLException e) {
-            System.out.println("SQL");
-        }
+        boolean status = true;
+        System.out.println(status = false|| status = true | status = false); // true | (status = false)
+        System.out.println(status); //LINE 7
     }
 }
 
-//ANSWER = method getData() causes compilation error
+//ANSWER = Compilation error
 
+//explanation
+// in this case, it not compare properly 
+// we can make like this to run the comparison --> (status = false) || (status = true) | (status = false) , tambah kurungan ().
+// In line 7, bila kita dpt run, kenapa status jadi false? sebab awalnya declare status = true. 
+// & then last declaration status tu dalam comparison ialah false.
+
+//            || comparison ni akan lihat belah kiria dulu. kalau ada true, auto true. 
+//             | comparison ni akan lihat dua2 terus. 
+//         
+//              | , || find true
+         

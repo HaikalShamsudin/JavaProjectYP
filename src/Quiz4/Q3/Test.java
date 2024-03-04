@@ -1,24 +1,53 @@
 package Quiz4.Q3;
 
-public class Test {  //UNDESTANDING LOGICAL OPERATOR - QUESTION 9
-    public static void main(String[] args) {
-        for (int x = 10, y = 11, z= 12; y > x && z > y; y++, z -=2) {
-            System.out.println(x + y + z);
-        }
+
+class Currency {
+    String notation = "-";
+
+    String getNotation() {
+        return notation;
     }
 }
 
-//the ouput will be 33
+class USDollar extends Currency {
+    String notation = "$";
 
-//for loop with logical operator
-// 1st condition --> in this case, variable dah declare x = 10, y = 11, z = 12
-// 2nd condition --> y > x && z > y. Bermakna dia compare antara dua statement ni,
-//                                   && bermaksud jika salah satu statement salah, akan return false.
-//                                   dalam kes ini, statement dua2 ni betul. so return true 
-// 3rd condition --> y++ , z - = 2.  Statement ini menyatakan bahawa nilai y meningkat tambah 1. jadi nilai y = 12
-//                                   and then z dah update kepada tolak 2. jadi nilai z = 10
-// so bila compare balik dalam logical operator (y > x && z > y),  salah satu statement salah, so return false.
-//                                               true     false
-// so ia akan print true statement shj iaitu System.out.println(x + y + z) = 33    
+    String getNotation () {
+        return notation;
+    }
+}
 
-//let say kalau ada increament pada z, dan statement logical operator akan return TRUE. loop ini akan berjalan tanpa henti
+class Euro extends Currency {
+    protected String notation = "E";
+
+    protected String getNotation() {
+        return notation;
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        Currency c1 = new USDollar(); //LINE 30
+        System.out.println(c1.notation + ":" + c1.getNotation()); //LINE 31
+        
+        Currency c2 = new Euro(); //LINE 33
+        System.out.println(c2.notation + ":" + c2.getNotation()); //LINE 34
+    }
+    
+}
+
+//ANSWER =   -:$ -:E
+
+// Explanation = Currency is the parent class of USDollar and Euro. 
+// LINE 30, we create object c1 in class Currency, and the instance of USDollar()
+// so, when we print c1.notation, it will take the variable in class Currency (parent class). kerana kita create object c1 tadi di dalam class Currency.
+// and then, when we calling c1.getNotation, kita akan panggil method dari USDollar().
+// ini kerana, method dalam USDollar sudah di override sebab nama sama iaitu getNotation() method.
+// So dia akan ambil method dalam USDollar iaitu return notation = $
+// LINE 30, akan berlaku sama macam di atas.
+        
+
+ 
+
+
+       

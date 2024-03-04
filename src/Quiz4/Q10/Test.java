@@ -1,27 +1,31 @@
 package Quiz4.Q10;
 
-public class Test { //QUESTION 70
-    public static void main(String[] args) {
-        String arr1 [], arr2, arr3 = null; //LINE 1 this line is an array/index
-        arr1 = new String [2];
-        arr1[0] = "A";
-        arr1[1] = "B";
-        arr2 = arr3 = arr1; //LINE 2
-        log (arr2);  //LINE 3 
+public class Test { //QUESTION 10
+    int i1 = 10;  //this is instance variable
+    static int i2 = 20;
+
+    private void change1(int val) {
+        i1 = ++val; //line 1
+        i2 = val++; //line 2
     }
 
-    private static void log (String... vals) {
-        for (String s: vals) 
-            System.out.println(s);
+    private static void change2(int val) {
+        i1 = --val; //line 3
+        i2 = val--; //line 4
+    }
+
+    public static void main(String[] args) {
+        change1 (5); //line 5
+        change2 (5); //line 6
+        System.out.println(i1 + i2); 
     }
 }
 
-//ANSWER = LINE 3 will compile error
+// In Line 3 (i1 = --val;), there is an error because change2 is a static method,
+// and static methods cannot directly access instance variables (i1).
+// You would need to make i1 static if you want to access it in a static method.
 
-// arr2 already define as String (In line 1)
-// so when line 2 state that arr2 = arr3 = arr1, 
-// will error because its compare between arr2 (String data type) and arr3 (array type)
+// in line 5 we cannot make a static reference to the static method (in method change1)
+// in println statement also cause error because cannot take and instance variable i1
 
-//NOTE : The log method is named similarly to the commonly used logging method in Java
-//       but in this specific example, it's a custom method for printing array elements to the console.
-//       It's not a standard logging utility.
+//
